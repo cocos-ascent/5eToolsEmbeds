@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+            border: 3px solid green;
+        }
+
+        input[type="checkbox"] {
+            -webkit-appearance: initial;
+            appearance: initial;
+            background: #ddd;
+            width: 20px;
+            height: 20px;
+            border: none;
+            position: relative;
+        }
+
+        input[type="checkbox"]:checked {
+            background: #555;
+        }
+
+        input[type="checkbox"]:checked:after {
+            /* Heres your symbol replacement */
+            content: "X";
+            color: white;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+
+        .flex-container {
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #888;
+            background-color: #222;
+        }
+
+        .flex-container>div {
+            background-color: #222;
+            flex: 1;
+            margin: 0px;
+            text-align: center;
+            line-height: 40px;
+            font-size: 40px;
+        }
+
+        h2 {
+            color: white;
+            margin: 5px;
+            font-size: 25px
+        }
+
+        h1 {
+            color: white;
+            margin: 5px;
+            font-size: 30px
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex-container">
+        <h1>Spell Slots</h1>
+    </div>
+    <div class="flex-container">
+        <h2>Level 1</h2>
+        <div>
+            <input type="checkbox">
+        </div>
+        <div>
+            <input type="checkbox">
+        </div>
+        <div>
+            <input type="checkbox">
+        </div>
+        <div>
+            <input type="checkbox">
+        </div>
+    </div>
+    <div class="flex-container">
+        <h2>Level 2</h2>
+        <div>
+            <input type="checkbox">
+        </div>
+        <div>
+            <input type="checkbox">
+        </div>
+        <div>
+            <input type="checkbox">
+        </div>
+    </div>
+
+    <div class="flex-container">
+        <h2>Level 3</h2>
+        <div>
+            <input type="checkbox">
+        </div>
+        <div>
+            <input type="checkbox">
+        </div>
+        <div>
+            <input type="checkbox">
+        </div>
+    </div>
+    <div class="flex-container">
+        <h2>Level 4</h2>
+        <div>
+            <input type="checkbox">
+        </div>
+        <div>
+            <input type="checkbox">
+        </div>
+        <div>
+            <input type="checkbox">
+        </div>
+    </div>
+
+    <div class="flex-container">
+        <h2>Level 5</h2>
+        <div>
+            <input type="checkbox">
+        </div>
+        <div>
+            <input type="checkbox">
+        </div>
+        <div>
+            <input type="checkbox">
+        </div>
+    </div>
+
+</body>
+
+</html>
