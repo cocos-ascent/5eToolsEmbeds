@@ -3,15 +3,19 @@
 
 <head>
     <style>
+        html,
         body {
             margin: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            background-color: #222;
         }
 
         .center {
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 200px;
             border: 3px solid green;
         }
 
@@ -44,11 +48,12 @@
 
         .flex-container {
             display: flex;
+            flex: 1;
             flex-wrap: nowrap;
             justify-content: center;
             align-items: center;
-            border: 1px solid #888;
             background-color: #222;
+            border: 1px solid #888;
         }
 
         .flex-container>div {
@@ -56,19 +61,17 @@
             flex: 1;
             margin: 0px;
             text-align: center;
-            line-height: 40px;
-            font-size: 40px;
         }
+
 
         h2 {
             color: white;
-            margin: 5px;
+            margin: 10px;
             font-size: 25px
         }
 
         h1 {
             color: white;
-            margin: 5px;
             font-size: 30px
         }
     </style>
@@ -81,19 +84,15 @@
     <div class="flex-container">
         <h2>Level 1</h2>
         <div>
-            <label for="level1a"></label>
             <input type="checkbox">
         </div>
         <div>
-            <label for="level1b"></label>
             <input type="checkbox">
         </div>
         <div>
-            <label for="level1c"></label>
             <input type="checkbox">
         </div>
         <div>
-            <label for="level1d"></label>
             <input type="checkbox">
         </div>
     </div>
@@ -148,59 +147,6 @@
         </div>
     </div>
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="http://cdn.jsdelivr.net/jquery.cookie/1.4.0/jquery.cookie.min.js"></script>
-
-    <script>
-        function handleButtonClick(button) {
-            if ($(button).text().match("Check all")) {
-                $(":checkbox").prop("checked", true)
-            } else {
-                $(":checkbox").prop("checked", false)
-            };
-            updateButtonStatus();
-        }
-
-        function updateButtonStatus() {
-            var allChecked = $(":checkbox").length === $(":checkbox:checked").length;
-            $("button").text(allChecked ? "Uncheck all" : "Check all");
-        }
-
-        function updateCookie() {
-            var elementValues = {};
-            $(":checkbox").each(function () {
-                elementValues[this.id] = this.checked;
-            });
-
-            elementValues["buttonText"] = $("button").text();
-            $.cookie('elementValues', elementValues, { expires: 7, path: '/' })
-        }
-
-        function repopulateFormELements() {
-            var elementValues = $.cookie('elementValues');
-            if (elementValues) {
-                Object.keys(elementValues).forEach(function (element) {
-                    var checked = elementValues[element];
-                    $("#" + element).prop('checked', checked);
-                });
-
-                $("button").text(elementValues["buttonText"])
-            }
-        }
-
-        $(":checkbox").on("change", function () {
-            updateButtonStatus();
-            updateCookie();
-        });
-
-        $("button").on("click", function () {
-            handleButtonClick(this);
-            updateCookie();
-        });
-
-        $.cookie.json = true;
-        repopulateFormELements();
-    </script>
 </body>
 
 </html>
