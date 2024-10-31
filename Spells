@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        The div fill remaining
+        horizontal space
+    </title>
+
+    <!-- Style to fill remaining 
+        horizontal space -->
+    <style>
+        #main {
+            height: 100px;
+            border: 1px solid black;
+            font-size: 20px;
+            font-weight: bold;
+            color: white;
+        }
+
+        #left {
+            float: left;
+            width: 180px;
+            height: 100%;
+            background-color: green;
+        }
+
+        #right {
+            width: 100%;
+            height: 100%;
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body style="text-align:center;">
+    <div id="main">
+        <div id="left">
+            This is a div with fixed width.
+        </div>
+
+        <div id="right">
+            This is a div filled remaining
+            horizontal space
+        </div>
+    </div>
+</body>
+
+</html>
