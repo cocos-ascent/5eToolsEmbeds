@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        html,
+        body {
+            margin: 0;
+            height: 600px;
+            background-color: #222;
+            min-width: 160px;
+            overflow: hidden;
+        }
+
+        input[type="checkbox"] {
+            -webkit-appearance: initial;
+            appearance: initial;
+            background: #007777;
+            width: 15px;
+            height: 15px;
+            border: none;
+            position: relative;
+        }
+
+        input[type="checkbox"]:checked {
+            background: #ff00005d;
+        }
+
+        input[type="checkbox"]:checked:after {
+            /* Heres your symbol replacement */
+            font-size: 15px;
+            content: "X";
+            color: white;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+
+        .flex-container {
+            display: flex;
+            flex: 1;
+            flex-wrap: nowrap;
+            justify-content: center;
+        }
+
+        .checkboxes_container {
+            background-color: #222;
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            margin: 0px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #888;
+        }
+
+        h2 {
+            color: white;
+            font-size: 20px;
+            line-height: 20px;
+            margin: 3px;
+            margin-right: 0px;
+            margin-left: 0px;
+        }
+
+        h1 {
+            color: white;
+            font-size: 20px;
+            line-height: 20px;
+            margin: 5px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .bordered_container {
+            display: flex;
+            border: 3px solid #888;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+
+
+<body>
+    <div class="flex-container">
+        <h1>Legendary Actions</h1>
+    </div>
+
+    <div class="bordered_container">
+        <h2>T'rissaste</h2>
+    </div>
+
+    <div class="flex-container">
+        <div class="flex-container">
+            <div class="checkboxes_container">
+                <input type="checkbox"
+                       id="tl1">
+            </div>
+
+            <div class="checkboxes_container">
+                <input type="checkbox"
+                       id="tl2">
+            </div>
+
+            <div class="checkboxes_container">
+                <input type="checkbox"
+                       id="tl3">
+            </div>
+        </div>
+    </div>
+
+    <div class="bordered_container">
+        <h2>Nok'thaqesh</h2>
+    </div>
+
+    <div class="flex-container">
+
+        <div class="checkboxes_container">
+            <input type="checkbox"
+                   id="nl1">
+        </div>
+        <div class="checkboxes_container">
+            <input type="checkbox"
+                   id="nl2">
+        </div>
+    </div>
+
+    <div class="bordered_container">
+        <h2>Web Recharge</h2>
+    </div>
+
+    <div class="flex-container">
+        <div class="checkboxes_container">
+            <input type="checkbox"
+                   id="sw1">
+        </div>
+        <div class="checkboxes_container">
+            <input type="checkbox"
+                   id="sw2">
+        </div>
+        <div class="checkboxes_container">
+            <input type="checkbox"
+                   id="sw3">
+        </div>
+    </div>
+    </div>
+
+
+    <script>
+
+        // Function to save checkbox states to Local Storage
+        function saveCheckboxStates() {
+            const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            checkboxes.forEach((checkbox) => {
+                localStorage.setItem(checkbox.id, checkbox.checked);
+            });
+        }
+
+        // Function to load checkbox states from Local Storage
+        function loadCheckboxStates() {
+            const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            checkboxes.forEach((checkbox) => {
+                const savedState = localStorage.getItem(checkbox.id);
+                if (savedState !== null) {
+                    checkbox.checked = savedState === 'true';
+                }
+            });
+        }
+
+        // Attach event listener to the checkboxes to save their states
+        const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+        checkboxes.forEach((checkbox) => {
+            checkbox.addEventListener('change', saveCheckboxStates);
+        });
+
+        // Load checkbox states on page load
+        document.addEventListener('DOMContentLoaded', loadCheckboxStates);
+
+    </script>
+
+</body>
+
+</html>
