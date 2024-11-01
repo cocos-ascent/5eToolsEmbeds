@@ -11,17 +11,10 @@
             overflow: hidden;
         }
 
-        .center {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border: 3px solid green;
-        }
-
         input[type="checkbox"] {
             -webkit-appearance: initial;
             appearance: initial;
-            background: #ddd;
+            background: #007777;
             width: 20px;
             height: 20px;
             border: none;
@@ -29,11 +22,12 @@
         }
 
         input[type="checkbox"]:checked {
-            background: #555;
+            background: #ff00005d;
         }
 
         input[type="checkbox"]:checked:after {
             /* Heres your symbol replacement */
+            font-size: 15px;
             content: "X";
             color: white;
             position: absolute;
@@ -50,23 +44,24 @@
             flex: 1;
             flex-wrap: nowrap;
             justify-content: center;
-            align-items: center;
-            background-color: #222;
-            border: 1px solid #888;
         }
 
-        .flex-container>div {
+        .checkboxes_container {
             background-color: #222;
+            display: flex;
+            flex-direction: column;
             flex: 1;
             margin: 0px;
             text-align: center;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #888;
         }
-
 
         h2 {
             color: white;
-            margin: 10px;
-            font-size: 25px
+            font-size: 25px;
+            margin: 3px;
         }
 
         h1 {
@@ -74,101 +69,124 @@
             font-size: 30px;
             margin: 10px;
         }
+
+        .bordered_container {
+            display: flex;
+            width: 80px;
+            flex: 0, 0, 100px;
+            border: 1px solid #888;
+            justify-content: center;
+            align-items: center;
+        }
     </style>
 </head>
 
 
 
 <body>
-    <form onsubmit="myfunc(event)">
-        <div class="flex-container">
-            <h1>Spell Slots</h1>
+    <div class="flex-container">
+        <h1>Spell Slots</h1>
+    </div>
+
+    <div class="flex-container">
+        <div class="bordered_container">
+            <h2>1</h2>
         </div>
 
         <div class="flex-container">
-            <h2>Level 1</h2>
-            <div>
+            <div class="checkboxes_container">
                 <input type="checkbox"
                        id="1a">
             </div>
-            <div>
+
+            <div class="checkboxes_container">
                 <input type="checkbox"
                        id="1b">
             </div>
-            <div>
+
+            <div class="checkboxes_container">
                 <input type="checkbox"
                        id="1c">
             </div>
-            <div>
+
+            <div class="checkboxes_container">
                 <input type="checkbox"
                        id="1d">
             </div>
         </div>
+    </div>
 
-        <div class="flex-container">
-            <h2>Level 2</h2>
-            <div>
-                <input type="checkbox"
-                       id="2a">
-            </div>
-            <div>
-                <input type="checkbox"
-                       id="2b">
-            </div>
-            <div>
-                <input type="checkbox"
-                       id="2c">
-            </div>
+    <div class="flex-container">
+        <div class="bordered_container">
+            <h2>2</h2>
         </div>
+        <div class="checkboxes_container">
+            <input type="checkbox"
+                   id="2a">
+        </div>
+        <div class="checkboxes_container">
+            <input type="checkbox"
+                   id="2b">
+        </div>
+        <div class="checkboxes_container">
+            <input type="checkbox"
+                   id="2c">
+        </div>
+    </div>
 
-        <div class="flex-container">
-            <h2>Level 3</h2>
-            <div>
-                <input type="checkbox"
-                       id="3a">
-            </div>
-            <div>
-                <input type="checkbox"
-                       id="3b">
-            </div>
-            <div>
-                <input type="checkbox"
-                       id="3c">
-            </div>
+    <div class="flex-container">
+        <div class="bordered_container">
+            <h2>3</h2>
         </div>
+        <div class="checkboxes_container">
+            <input type="checkbox"
+                   id="3a">
+        </div>
+        <div class="checkboxes_container">
+            <input type="checkbox"
+                   id="3b">
+        </div>
+        <div class="checkboxes_container">
+            <input type="checkbox"
+                   id="3c">
+        </div>
+    </div>
 
-        <div class="flex-container">
-            <h2>Level 4</h2>
-            <div>
-                <input type="checkbox"
-                       id="4a">
-            </div>
-            <div>
-                <input type="checkbox"
-                       id="4b">
-            </div>
-            <div>
-                <input type="checkbox"
-                       id="4c">
-            </div>
+    <div class="flex-container">
+        <div class="bordered_container">
+            <h2>4</h2>
         </div>
+        <div class="checkboxes_container">
+            <input type="checkbox"
+                   id="4a">
+        </div>
+        <div class="checkboxes_container">
+            <input type="checkbox"
+                   id="4b">
+        </div>
+        <div class="checkboxes_container">
+            <input type="checkbox"
+                   id="4c">
+        </div>
+    </div>
 
-        <div class="flex-container">
-            <h2>Level 5</h2>
-            <div>
-                <input type="checkbox"
-                       id="5a">
-            </div>
-            <div>
-                <input type="checkbox"
-                       id="5b">
-            </div>
-            <div>
-                <input type="checkbox"
-                       id="5c">
-            </div>
+    <div class="flex-container">
+        <div class="bordered_container">
+            <h2>5</h2>
         </div>
-    </form>
+        <div class="checkboxes_container">
+            <input type="checkbox"
+                   id="5a">
+        </div>
+        <div class="checkboxes_container">
+            <input type="checkbox"
+                   id="5b">
+        </div>
+        <div class="checkboxes_container">
+            <input type="checkbox"
+                   id="5c">
+        </div>
+    </div>
 
 
     <script>
