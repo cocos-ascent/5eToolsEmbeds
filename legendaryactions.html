@@ -16,6 +16,8 @@
             -webkit-appearance: initial;
             appearance: initial;
             background: #007777;
+            margin-top: 5px;
+            margin-bottom: 5px;
             width: 15px;
             height: 15px;
             border: none;
@@ -53,6 +55,8 @@
             flex-direction: column;
             flex: 1;
             margin: 0px;
+            margin-top: 3px;
+            margin-bottom: 3px;
             text-align: center;
             justify-content: center;
             align-items: center;
@@ -76,6 +80,13 @@
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
+        }
+
+        label {
+            color: #ccc;
+            margin: 0pt;
+            margin-top: 5px;
+            flex: 1
         }
 
         .bordered_container {
@@ -139,14 +150,17 @@
 
     <div class="flex-container">
         <div class="checkboxes_container">
+            <label for="vehicle2">S1</label>
             <input type="checkbox"
                    id="sw1">
         </div>
         <div class="checkboxes_container">
+            <label for="vehicle2">S2</label>
             <input type="checkbox"
                    id="sw2">
         </div>
         <div class="checkboxes_container">
+            <label for="vehicle2">S3</label>
             <input type="checkbox"
                    id="sw3">
         </div>
