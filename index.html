@@ -2,47 +2,35 @@
 <html>
 
 <head>
-    <!-- Style to fill remaining 
-        horizontal space -->
-    <style type="text/css">
-        body {
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1">
+    <style>
+        body,
+        html {
+            height: 100%;
             margin: 0;
         }
 
-        #main {
-            padding: 0% height: 100px;
-            border: 1px solid black;
-            font-size: 20px;
-            font-weight: bold;
-            color: white;
-        }
+        .bg {
+            /* The image used */
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr7Sg28oxhUsDxmGyvAgNrTQfT75ql0CKUyg&s");
 
-        #left {
-            float: left;
-            width: 180px;
+            /* Full height */
             height: 100%;
-            background-color: green;
-        }
 
-        #right {
-            width: 100%;
-            height: 100%;
-            background-color: blue;
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
         }
     </style>
 </head>
 
-<body style="text-align:center;">
-    <div id="main">
-        <div id="left">
-            This is a div with fixed width.
-        </div>
+<body>
 
-        <div id="right">
-            This is a div filled remaining
-            horizontal space
-        </div>
-    </div>
+    <div class="bg"></div>
+
+
 </body>
 
 </html>
