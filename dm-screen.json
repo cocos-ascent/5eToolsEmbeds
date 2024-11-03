@@ -1,0 +1,776 @@
+{
+	"fileType": "dm-screen",
+	"siteVersion": "1.210.12",
+	"w": 20,
+	"h": 10,
+	"ctc": false,
+	"fs": false,
+	"lk": true,
+	"ps": [
+		{
+			"x": 0,
+			"y": 0,
+			"w": 5,
+			"h": 4,
+			"t": 5,
+			"s": {
+				"s": "NUMBER",
+				"d": "DESC",
+				"ri": true,
+				"m": false,
+				"rg": false,
+				"rri": false,
+				"g": true,
+				"p": true,
+				"a": false,
+				"k": true,
+				"piHp": false,
+				"piHm": false,
+				"piV": true,
+				"piO": false,
+				"c": [
+					{
+						"id": "057b66d1-d67c-4566-91df-f3edfe1b3a48",
+						"e": true,
+						"v": false,
+						"p": "passivePerception",
+						"a": "PP"
+					},
+					{
+						"id": "ea3c2765-1ba9-4ddc-b516-998928b4380e",
+						"e": true,
+						"v": false,
+						"p": "armorClass",
+						"a": "AC"
+					}
+				],
+				"cndc": [],
+				"r": [
+					{
+						"id": "2f2173a1-0d17-4a12-aab8-070cf7728c80",
+						"n": "Torinn         (caroline)",
+						"h": 55,
+						"g": 55,
+						"a": true,
+						"c": [],
+						"v": false,
+						"o": 1,
+						"k": [
+							{
+								"id": "057b66d1-d67c-4566-91df-f3edfe1b3a48",
+								"v": "13"
+							},
+							{
+								"id": "ea3c2765-1ba9-4ddc-b516-998928b4380e",
+								"v": "15"
+							}
+						]
+					},
+					{
+						"id": "0e1a9754-590a-4392-8fc6-4e234a418032",
+						"n": "Steve          (andrew)",
+						"h": 33,
+						"g": 33,
+						"a": false,
+						"c": [],
+						"v": false,
+						"o": 1,
+						"k": [
+							{
+								"id": "057b66d1-d67c-4566-91df-f3edfe1b3a48",
+								"v": "14"
+							},
+							{
+								"id": "ea3c2765-1ba9-4ddc-b516-998928b4380e",
+								"v": "15"
+							}
+						]
+					},
+					{
+						"id": "4cc5ad72-7ab5-47da-bc65-cabfa9466f73",
+						"n": "Ruin             (cody)",
+						"h": 49,
+						"g": 49,
+						"a": false,
+						"c": [],
+						"v": false,
+						"o": 1,
+						"k": [
+							{
+								"id": "057b66d1-d67c-4566-91df-f3edfe1b3a48",
+								"v": "11"
+							},
+							{
+								"id": "ea3c2765-1ba9-4ddc-b516-998928b4380e",
+								"v": "15"
+							}
+						]
+					},
+					{
+						"id": "ec4b4101-6f60-4cde-ac2d-60d2c929ecef",
+						"n": "Joanie            (abi)",
+						"h": 38,
+						"g": 38,
+						"a": false,
+						"c": [],
+						"v": false,
+						"o": 1,
+						"k": [
+							{
+								"id": "057b66d1-d67c-4566-91df-f3edfe1b3a48",
+								"v": "17"
+							},
+							{
+								"id": "ea3c2765-1ba9-4ddc-b516-998928b4380e",
+								"v": "15"
+							}
+						]
+					},
+					{
+						"id": "fec258d2-4b72-4870-809a-022dfceb2f1b",
+						"n": "G. Talisman   (noah)",
+						"h": 44,
+						"g": 44,
+						"a": false,
+						"c": [],
+						"v": false,
+						"o": 1,
+						"k": [
+							{
+								"id": "057b66d1-d67c-4566-91df-f3edfe1b3a48",
+								"v": "11"
+							},
+							{
+								"id": "ea3c2765-1ba9-4ddc-b516-998928b4380e",
+								"v": "16"
+							}
+						]
+					},
+					{
+						"id": "3ec66570-1a3e-436b-83b2-03627818c4bc",
+						"n": "??????           (ollie)",
+						"h": 999999,
+						"g": 999999,
+						"a": false,
+						"c": [],
+						"v": false,
+						"o": 1,
+						"k": [
+							{
+								"id": "057b66d1-d67c-4566-91df-f3edfe1b3a48",
+								"v": "??????"
+							},
+							{
+								"id": "ea3c2765-1ba9-4ddc-b516-998928b4380e",
+								"v": "??????"
+							}
+						]
+					},
+					{
+						"id": "cf7bb20a-1008-4401-ab97-e298b2a26361",
+						"n": "??????           (alix)",
+						"h": 999999,
+						"g": 999999,
+						"a": false,
+						"c": [],
+						"v": false,
+						"o": 1,
+						"k": [
+							{
+								"id": "057b66d1-d67c-4566-91df-f3edfe1b3a48",
+								"v": "??????"
+							},
+							{
+								"id": "ea3c2765-1ba9-4ddc-b516-998928b4380e",
+								"v": "??????"
+							}
+						]
+					}
+				],
+				"rdp": [
+					{
+						"id": "4cc5ad72-7ab5-47da-bc65-cabfa9466f73",
+						"n": "Ruin             (cody)",
+						"h": 49,
+						"g": 49,
+						"a": false,
+						"c": [],
+						"v": false,
+						"o": 1,
+						"k": []
+					},
+					{
+						"id": "2f2173a1-0d17-4a12-aab8-070cf7728c80",
+						"n": "Torinn         (caroline)",
+						"h": 55,
+						"g": 55,
+						"a": false,
+						"c": [],
+						"v": false,
+						"o": 1,
+						"k": []
+					},
+					{
+						"id": "0e1a9754-590a-4392-8fc6-4e234a418032",
+						"n": "Steve          (andrew)",
+						"h": 33,
+						"g": 33,
+						"a": false,
+						"c": [],
+						"v": false,
+						"o": 1,
+						"k": []
+					},
+					{
+						"id": "ec4b4101-6f60-4cde-ac2d-60d2c929ecef",
+						"n": "Joanie            (abi)",
+						"h": 38,
+						"g": 38,
+						"a": false,
+						"c": [],
+						"v": false,
+						"o": 1,
+						"k": []
+					},
+					{
+						"id": "fec258d2-4b72-4870-809a-022dfceb2f1b",
+						"n": "G. Talisman   (noah)",
+						"h": 44,
+						"g": 44,
+						"a": false,
+						"c": [],
+						"v": false,
+						"o": 1,
+						"k": []
+					},
+					{
+						"id": "cf7bb20a-1008-4401-ab97-e298b2a26361",
+						"n": "??????           (alix)",
+						"h": 999999,
+						"g": 999999,
+						"a": false,
+						"c": [],
+						"v": false,
+						"o": 1,
+						"k": []
+					},
+					{
+						"id": "3ec66570-1a3e-436b-83b2-03627818c4bc",
+						"n": "??????           (ollie)",
+						"h": 999999,
+						"g": 999999,
+						"a": false,
+						"c": [],
+						"v": false,
+						"o": 1,
+						"k": []
+					}
+				],
+				"n": 1
+			}
+		},
+		{
+			"x": 5,
+			"y": 0,
+			"w": 5,
+			"h": 10,
+			"t": 3,
+			"s": {
+				"x": ""
+			},
+			"a": [
+				{
+					"t": 1,
+					"r": "T'rissaste",
+					"c": {
+						"p": "bestiary.html",
+						"s": "coco",
+						"u": "priestess%20t'rissaste%2c%20the%20bow%20of%20lolth_coco"
+					}
+				},
+				{
+					"t": 3,
+					"s": {
+						"x": ""
+					}
+				}
+			],
+			"b": 1
+		},
+		{
+			"x": 15,
+			"y": 0,
+			"w": 5,
+			"h": 6,
+			"t": 1,
+			"c": {
+				"p": "bestiary.html",
+				"s": "MM",
+				"u": "giant%20spider_mm"
+			}
+		},
+		{
+			"x": 15,
+			"y": 7,
+			"w": 5,
+			"h": 3,
+			"t": 1,
+			"c": {
+				"p": "trapshazards.html",
+				"s": "DMG",
+				"u": "webs_dmg"
+			},
+			"a": [
+				{
+					"t": 1,
+					"c": {
+						"p": "trapshazards.html",
+						"s": "DMG",
+						"u": "webs_dmg"
+					}
+				},
+				{
+					"t": 1,
+					"c": {
+						"p": "tables.html",
+						"s": "DMG",
+						"u": "difficulty%20class%3b%20typical%20dcs_dmg"
+					}
+				},
+				{
+					"t": 1,
+					"c": {
+						"p": "tables.html",
+						"s": "PHB",
+						"u": "skills_phb"
+					}
+				},
+				{
+					"t": 1,
+					"c": {
+						"p": "conditionsdiseases.html",
+						"s": "PHB",
+						"u": "blinded_phb"
+					}
+				}
+			],
+			"b": 0
+		},
+		{
+			"x": 0,
+			"y": 4,
+			"w": 5,
+			"h": 3,
+			"t": 5,
+			"s": {
+				"s": "NUMBER",
+				"d": "DESC",
+				"ri": true,
+				"m": false,
+				"rg": false,
+				"rri": false,
+				"g": true,
+				"p": true,
+				"a": false,
+				"k": true,
+				"piHp": false,
+				"piHm": false,
+				"piV": true,
+				"piO": false,
+				"c": [
+					{
+						"id": "31f8ece1-19f5-46b5-97b6-6ee20f47a88a",
+						"e": true,
+						"v": false,
+						"p": "speed",
+						"a": "SPD"
+					},
+					{
+						"id": "451eb915-2c7b-47a1-a038-773d4304a125",
+						"e": true,
+						"v": false,
+						"p": "armorClass",
+						"a": "AC"
+					}
+				],
+				"cndc": [],
+				"r": [
+					{
+						"id": "09b90266-dfc0-4b49-ba1c-d5770e506cc0",
+						"n": "Priestess T'rissaste, the Bow of Lolth",
+						"n_m": "T'rissaste",
+						"h": 45,
+						"g": 45,
+						"a": false,
+						"s": "coco",
+						"c": [
+							{
+								"id": "68e676b7-4ca4-4faf-8653-3e091a106e78",
+								"entity": {
+									"name": "Concentration",
+									"color": "#009f7a",
+									"turns": null
+								}
+							},
+							{
+								"id": "747a4fca-c7a2-47ad-ad71-09e0f7a383d7",
+								"entity": {
+									"name": "Invisible",
+									"color": "#7ad2d6",
+									"turns": null
+								}
+							}
+						],
+						"v": false,
+						"o": 1,
+						"k": [
+							{
+								"id": "31f8ece1-19f5-46b5-97b6-6ee20f47a88a",
+								"v": 30
+							},
+							{
+								"id": "451eb915-2c7b-47a1-a038-773d4304a125",
+								"v": "15"
+							}
+						]
+					},
+					{
+						"id": "1ee97276-0628-4ac1-b5be-c4be97d92e32",
+						"n": "Nok'thaqesh, Shadow of T'rissaste",
+						"n_m": "Nok'thaqesh",
+						"h": 123,
+						"g": 123,
+						"a": false,
+						"s": "coco",
+						"c": [
+							{
+								"id": "9bda790e-85b0-4048-a355-758303086ec2",
+								"entity": {
+									"name": "Concentration",
+									"color": "#009f7a",
+									"turns": null
+								}
+							}
+						],
+						"v": false,
+						"o": 1,
+						"k": [
+							{
+								"id": "31f8ece1-19f5-46b5-97b6-6ee20f47a88a",
+								"v": 30
+							},
+							{
+								"id": "451eb915-2c7b-47a1-a038-773d4304a125",
+								"v": "16"
+							}
+						]
+					},
+					{
+						"id": "cccf99d6-50a3-491d-8d45-9b8683a72e3e",
+						"n": "Giant Spider",
+						"h": 26,
+						"g": 26,
+						"a": true,
+						"s": "MM",
+						"c": [],
+						"v": false,
+						"o": 1,
+						"k": [
+							{
+								"id": "31f8ece1-19f5-46b5-97b6-6ee20f47a88a",
+								"v": 30
+							},
+							{
+								"id": "451eb915-2c7b-47a1-a038-773d4304a125",
+								"v": 14
+							}
+						]
+					},
+					{
+						"id": "0a8dc622-7c5c-460d-aa4d-b68588e68255",
+						"n": "Giant Spider",
+						"h": 26,
+						"g": 26,
+						"a": true,
+						"s": "MM",
+						"c": [],
+						"v": false,
+						"o": 2,
+						"k": [
+							{
+								"id": "31f8ece1-19f5-46b5-97b6-6ee20f47a88a",
+								"v": 30
+							},
+							{
+								"id": "451eb915-2c7b-47a1-a038-773d4304a125",
+								"v": 14
+							}
+						]
+					}
+				],
+				"rdp": [],
+				"n": 1
+			}
+		},
+		{
+			"x": 10,
+			"y": 0,
+			"w": 5,
+			"h": 10,
+			"t": 3,
+			"s": {
+				"x": ""
+			},
+			"a": [
+				{
+					"t": 1,
+					"r": "Nok'thaqesh",
+					"c": {
+						"p": "bestiary.html",
+						"s": "coco",
+						"u": "nok'thaqesh%2c%20shadow%20of%20t'rissaste_coco"
+					}
+				},
+				{
+					"t": 3,
+					"s": {
+						"x": ""
+					}
+				}
+			],
+			"b": 1
+		},
+		{
+			"x": 0,
+			"y": 7,
+			"w": 2,
+			"h": 3,
+			"t": 90,
+			"c": {
+				"u": "https://cocos-ascent.github.io/5eToolsEmbeds/spellslots"
+			}
+		},
+		{
+			"x": 3,
+			"y": 7,
+			"w": 2,
+			"h": 3,
+			"t": 90,
+			"c": {
+				"u": "https://cocos-ascent.github.io/5eToolsEmbeds/legendaryactions"
+			}
+		},
+		{
+			"x": 2,
+			"y": 7,
+			"w": 1,
+			"h": 3,
+			"t": 99
+		},
+		{
+			"x": 15,
+			"y": 6,
+			"w": 5,
+			"h": 1,
+			"t": 99
+		}
+	],
+	"ex": [
+		{
+			"x": 2,
+			"y": 7,
+			"w": 3,
+			"h": 3,
+			"t": 90,
+			"c": {
+				"u": "https://cocos-ascent.github.io/5eToolsEmbeds/legendaryactions"
+			}
+		},
+		{
+			"x": 0,
+			"y": 7,
+			"w": 2,
+			"h": 3,
+			"t": 90,
+			"c": {
+				"u": "https://cocos-ascent.github.io/5eToolsEmbeds/spellslots"
+			}
+		},
+		{
+			"x": 5,
+			"y": 5,
+			"w": 4,
+			"h": 2,
+			"t": 3,
+			"s": {
+				"x": "REMINDER: read this each turn before telling a player to act:\n1. Legendary Actions"
+			}
+		},
+		{
+			"x": 14,
+			"y": 0,
+			"w": 1,
+			"h": 10,
+			"t": 99
+		},
+		{
+			"x": 5,
+			"y": 0,
+			"w": 1,
+			"h": 10,
+			"t": 99
+		},
+		{
+			"x": 6,
+			"y": 10,
+			"w": 8,
+			"h": 1,
+			"t": 99
+		},
+		{
+			"x": 7,
+			"y": 0,
+			"w": 3,
+			"h": 20,
+			"t": 51,
+			"s": {}
+		},
+		{
+			"x": 4,
+			"y": 10,
+			"w": 2,
+			"h": 6,
+			"t": 16,
+			"s": {
+				"state": {},
+				"rowState": [
+					{
+						"state": {
+							"name": "",
+							"current": 1,
+							"max": 1
+						}
+					},
+					{
+						"state": {
+							"name": "",
+							"current": 1,
+							"max": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"x": 2,
+			"y": 0,
+			"w": 5,
+			"h": 6,
+			"t": 5,
+			"s": {
+				"s": "NUMBER",
+				"d": "DESC",
+				"ri": true,
+				"m": false,
+				"rg": false,
+				"rri": false,
+				"g": true,
+				"p": true,
+				"a": false,
+				"k": true,
+				"piHp": false,
+				"piHm": false,
+				"piV": true,
+				"piO": false,
+				"c": [
+					{
+						"id": "9f2719e1-819c-4a4a-9b41-ec12764db82c",
+						"e": true,
+						"v": false,
+						"p": "armorClass",
+						"a": "AC"
+					},
+					{
+						"id": "4cfef077-60f8-4976-a063-fafb28c8966f",
+						"e": false,
+						"v": false,
+						"p": "speed",
+						"a": "SPD"
+					}
+				],
+				"cndc": [],
+				"r": [],
+				"rdp": [],
+				"n": 1
+			}
+		},
+		{
+			"x": 8,
+			"y": 6,
+			"w": 2,
+			"h": 4,
+			"t": 16,
+			"s": {
+				"state": {},
+				"rowState": [
+					{
+						"state": {
+							"name": "Darkness",
+							"current": 1,
+							"max": 1
+						}
+					},
+					{
+						"state": {
+							"name": "Faerie Fire",
+							"current": 1,
+							"max": 1
+						}
+					},
+					{
+						"state": {
+							"name": "Levitate",
+							"current": 1,
+							"max": 1
+						}
+					},
+					{
+						"state": {
+							"name": "Level 1 Spell Slot",
+							"current": 3,
+							"max": 4
+						}
+					},
+					{
+						"state": {
+							"name": "Level 2 Spell Slot",
+							"current": 3,
+							"max": 3
+						}
+					},
+					{
+						"state": {
+							"name": "Level 3 Spell Slot",
+							"current": 3,
+							"max": 3
+						}
+					},
+					{
+						"state": {
+							"name": "Level 4 Spell Slot",
+							"current": 3,
+							"max": 3
+						}
+					},
+					{
+						"state": {
+							"name": "Level 5 Spell Slot",
+							"current": 3,
+							"max": 3
+						}
+					}
+				]
+			}
+		}
+	]
+}
